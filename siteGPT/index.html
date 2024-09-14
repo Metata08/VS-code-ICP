@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de présentation de l'association Initiative Citoyenne pour la Paix">
+    <title>ICP - Initiative Citoyenne pour la Paix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Initiative Citoyenne pour la Paix</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#about">À Propos</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#news">Actualités</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Promouvoir la paix et l'engagement citoyen</h2>
+            <p>Découvrez nos initiatives pour une citoyenneté active et une paix durable.</p>
+            <a href="#projects" class="btn">Voir nos projets</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>À Propos de l'ICP</h2>
+            <p>Créée en 2015, l'Initiative Citoyenne pour la Paix œuvre pour promouvoir la citoyenneté active, l'entrepreneuriat, et la paix internationale.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Nos Projets</h2>
+            <div class="project">
+                <h3>Univers de la Démocratie</h3>
+                <p>Promotion de la transparence, de l'autonomisation des citoyens et de la responsabilité publique.</p>
+            </div>
+            <div class="project">
+                <h3>Univers de l'Entrepreneuriat</h3>
+                <p>Formation et accompagnement des jeunes dans la création d'entreprises.</p>
+            </div>
+            <div class="project">
+                <h3>Univers de la Paix</h3>
+                <p>Promotion de la paix internationale à travers le dialogue interculturel et la prévention des conflits.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="container">
+            <h2>Actualités</h2>
+            <p>Découvrez les dernières nouvelles et événements de l'ICP.</p>
+            <!-- Articles de blog à insérer ici -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <form action="contact.php" method="POST">
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Initiative Citoyenne pour la Paix. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
